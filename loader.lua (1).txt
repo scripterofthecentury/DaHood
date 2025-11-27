@@ -3,13 +3,6 @@
 -- misc
 if not game:IsLoaded() then game.Loaded:Wait() end
 local Player = game:GetService("Players").LocalPlayer
-
--- key
-getgenv().Key = ''
-if Key == 'WTMetric' then
---
-if game.PlaceId == 286090429 then
-    --
 local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/metricxc/LinoriaLib/refs/heads/main/Library.lua'))()
 local ThemeManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/metricxc/LinoriaLib/refs/heads/main/addons/ThemeManager.lua'))()
 local SaveManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/metricxc/LinoriaLib/refs/heads/main/addons/SaveManager.lua'))()
@@ -8106,4 +8099,5 @@ end
 --
 else
     Player:Kick("Get Updated Key at dsc.gg/metric [No Ads!]")
+
 end
